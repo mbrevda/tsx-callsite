@@ -22,4 +22,5 @@ jobs:
       with:
         node-version: v23.6.0
         cache: 'npm'
+    - run: npm i
     - run: node --import tsx --test index.ts
